@@ -1,0 +1,8 @@
+--Results of derivation--
+
+oriFunc:(cos((x)))^sin(x^(yz+cos(x+y)))
+derived:(((cos((x))))^(sin(x^(y*z+cos(x+y))))*(ln((cos((x))))(cos(x^(y*z+cos(x+y)))*(((x)^((y*z+cos(x+y)))*(ln(x)((-sin(x+y))*(1))+((y*z+cos(x+y)))/(x)1))))+(sin(x^(y*z+cos(x+y))))/((cos((x))))(-sin((x)))*(1)))
+At ['x', 'y', 'z']=['1', '3', '10'] df/dx=-6.595397248354442
+
+Python friendly version: (((cos((1))))**(sin(1**(3*10+cos(1+3))))*(log((cos((1))))*(cos(1**(3*10+cos(1+3)))*(((1)**((3*10+cos(1+3)))*(log(1)*((-sin(1+3))*(1))+((3*10+cos(1+3)))/(1)*1))))+(sin(1**(3*10+cos(1+3))))/((cos((1))))*(-sin((1)))*(1)))
+Calculator friendly version: (((cos((1))))^(sin(1^(3*10+cos(1+3))))*(log((cos((1))))*(cos(1^(3*10+cos(1+3)))*(((1)^((3*10+cos(1+3)))*(log(1)*((-sin(1+3))*(1))+((3*10+cos(1+3)))/(1)*1))))+(sin(1^(3*10+cos(1+3))))/((cos((1))))*(-sin((1)))*(1)))
